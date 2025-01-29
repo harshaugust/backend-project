@@ -7,7 +7,7 @@ __pycache__/
 venv/
 env/
 .venv/
-
+alembic/
 # Ignore IDE-specific files
 .vscode/
 .idea/
@@ -19,7 +19,7 @@ env/
 .env.local
 
 # Ignore SQLite databases (if used)
-*.sqlite3
+.test.db
 
 # Ignore Alembic migrations (if used in the future)
 alembic/versions/
