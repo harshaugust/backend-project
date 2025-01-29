@@ -8,6 +8,7 @@ venv/
 env/
 .venv/
 .alembic
+alembic/
 # Ignore IDE-specific files
 .vscode/
 .idea/
