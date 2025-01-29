@@ -1,0 +1,49 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore SQLite databases (if used)
+*.sqlite3
+
+# Ignore Alembic migrations (if used in the future)
+alembic/versions/
+
+# Ignore Celery beat schedule files
+celerybeat-schedule
+
+# Ignore Redis dump files (if Redis is used locally)
+dump.rdb
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
